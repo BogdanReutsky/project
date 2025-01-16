@@ -1,0 +1,143 @@
+:root {
+  --classic-collor: #292f36;
+  --special-collor: #fff;
+  --accent-collor: #cda274;
+  --desc-collor: #4d5053;
+}
+
+body {
+  font-family: "jost";
+}
+
+header{
+    margin-top: 26px;
+    margin-bottom: 18px;
+}
+
+.header-holder {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+
+.header-img {
+  width: 177px;
+  height: 50px;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-link {
+  color: var(--classic-collor);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+.header-link:hover {
+  color: var(--accent-collor);
+}
+
+.hero {
+  background-image: url(../img/header.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0px 0px 0px 290px;
+  padding-top: 188px;
+  padding-bottom: 250px;
+  margin-bottom: 19px;
+}
+
+.hero-title {
+  color: var(--classic-collor-collor);
+  width: 595px;
+  font-family: "DM Serif Display";
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.22px;
+}
+
+.hero-desc {
+  color: var(--desc-collor);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-bottom: 35px;
+}
+
+.hero-btn {
+  background-image: url(../svg/herobtn.svg);
+  background-repeat: no-repeat;
+  width: 207px;
+  height: 71px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.72px;
+  color: var(--special-collor);
+  padding: 22px 67px 22px 34px;
+}
+
+.tips{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tips-list {
+  display: flex;
+}
+
+.tips-holder {
+  width: 400px;
+  height: 395px;
+}
+
+.tips-title{
+    color: var(--classic-collor-collor);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+margin-bottom: 17px;
+}
+
+.tips-desc{
+    color: var(--desc-collor);
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+margin-bottom: 48px;
+}
+
+.tips-btn{
+    color: var(--desc-collor);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.36px;
+}
+
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
