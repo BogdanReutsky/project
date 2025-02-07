@@ -650,7 +650,9 @@ width: 321px;
   justify-content: center;
   padding-top: 35px;
   padding-bottom: 36px;
+  border-top: 1px solid lightgray;
   gap:10px;
+  
 }
 
 .end-desc{
